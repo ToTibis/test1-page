@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Description of the page less than 150 characters">
+    <title>Навигатор по страницам</title>
+    <link rel="stylesheet" href="css/libs.css">
+    <link rel="stylesheet" href="css/common.css">
+  </head>
+  <body>
+    <div class="page" id="js-page-regular" data-sprite-path="img/">
+      <div class="page__wrapper" id="js-page-wrapper">
+        <div class="page__content">
+          <!--include ../components/header-->
+          <main class="py-5">
+            <div class="container-fluid py-5">
+              <div class="row">
+                <div class="col-md-6 mx-auto">
+                  <h1 class="title title--normal pb-4">Навигатор по станицам</h1>
+                  <ul class="d-flex flex-column">
+                    <li class="mb-3" style="background-color: #e57373;"><a class="py-2 d-inline-block page__text--large d-block" href="ui.html" style="padding: 10px 15px; color: white;">Ui kit - без адаптивности</a></li>
+                    <li class="mb-3" style="background-color: #81c784;"><a class="py-2 d-inline-block page__text--large d-block" href="home.html" style="padding: 10px 15px; color: white;">Главная</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </main>
+        </div>
+        <!--include ../components/footer-->
+      </div>
+    </div>
+    <div class="modal js-modal fade modal--example" id="js-example-modal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <button class="modal-close ms-auto d-flex align-items-center" type="button" data-bs-dismiss="modal" aria-label="Закрыть"><span class="me-3">Закрыть</span>
+                <svg class="svg-icon">
+                  <use xlink:href="img/sprite.svg#close"></use>
+                </svg>
+          </button>
+          <div class="modal-body">
+                <h2 class="title title--sub-large mb-5">Hello, friend!</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--include ../components/menu-->
+    <script src="js/vendors.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

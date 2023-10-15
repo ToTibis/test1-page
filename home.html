@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Description of the page less than 150 characters">
+    <title>Главная</title>
+    <link rel="stylesheet" href="css/libs.css">
+    <link rel="stylesheet" href="css/common.css">
+  </head>
+  <body>
+    <div class="page page--home" id="js-page-home" data-sprite-path="img/">
+      <div class="page__wrapper" id="js-page-wrapper">
+        <div class="page__content">
+          <!--include ../components/header-->
+          <main class="py-5">
+            <div class="container-fluid">
+              <section class="example">
+                <div class="example__accent">
+                  <div class="example__accent-ratio ratio">
+                    <div class="example__accent-inner p-3">
+                      <div class="position-relative h-100 d-flex align-items-center">
+                        <h1 class="example__accent-title text-white my-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In accusamus doloremque distinctio. Delectus sapiente nulla, mollitia veritatis unde veniam eius temporibus nostrum voluptate saepe, hic rem architecto repellat numquam. Quidem.</h1>
+                        <ul class="example__accent-resolutions mb-0 d-flex justify-content-between text-primary">
+                          <li class="example__accent-resolutions-item text-uppercase">360p</li>
+                          <li class="example__accent-resolutions-item text-uppercase">720p</li>
+                          <li class="example__accent-resolutions-item text-uppercase">HD</li>
+                          <li class="example__accent-resolutions-item text-uppercase">Full HD</li>
+                          <li class="example__accent-resolutions-item text-uppercase">4K</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <ol class="example__list mt-4">
+                  <li class="example__list-item d-flex align-items-md-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores maxime, officia. Architecto debitis dicta dolores enim esse laudantium</li>
+                  <li class="example__list-item d-flex align-items-md-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                  <li class="example__list-item d-flex align-items-md-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores maxime, officia. Architecto debitis dicta dolores enim esse laudantium maiores nesciunt, non possimus quam quod reiciendis, sequi, similique tempore totam veritatis?</li>
+                </ol>
+              </section>
+            </div>
+          </main>
+        </div>
+        <!--include ../components/footer-->
+      </div>
+    </div>
+    <div class="modal js-modal fade modal--example" id="js-example-modal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <button class="modal-close ms-auto d-flex align-items-center" type="button" data-bs-dismiss="modal" aria-label="Закрыть"><span class="me-3">Закрыть</span>
+                <svg class="svg-icon">
+                  <use xlink:href="img/sprite.svg#close"></use>
+                </svg>
+          </button>
+          <div class="modal-body">
+                <h2 class="title title--sub-large mb-5">Hello, friend!</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--include ../components/menu-->
+    <script src="js/vendors.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
